@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header .containe {
+  width: 85%;
+  margin: auto;
+}
+#header .containe .header .left {
+  padding: 35px 0;
+  width: 40%;
+}
+#header .containe .header .left .logo {
+  width: 30%;
+}
+#header .containe .header .left .logo img {
+  width: 100%;
+}
+#header .containe .header .left .icon {
+  width: 30%;
+}
+#header .containe .header .left .icon ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+#header .containe .header .left .icon ul li i {
+  transition: 0.3s ease-in-out;
+  font-size: 16px;
+  color: rgb(98, 98, 98);
+}
+#header .containe .header .left .icon ul li i:hover {
+  color: black;
+}
+#header .containe .header .right {
+  width: 60%;
+}
+#header .containe .header .right .one {
+  width: 80%;
+}
+#header .containe .header .right .one ul li {
+  list-style: none;
+}
+#header .containe .header .right .one ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+#header .containe .header .right .one .home {
+  text-align: center;
+  width: 20%;
+  padding: 35px 0;
+  background-color: rgb(102, 0, 255);
+  position: relative;
+}
+#header .containe .header .right .one .home a {
+  color: white;
+}
+#header .containe .header .right .one .home:hover .home1 {
+  opacity: 1;
+  visibility: visible;
+  transform: perspective(300px) rotateX(0deg);
+}
+#header .containe .header .right .one .home .home1 {
+  text-align: left;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0%;
+  width: 150px;
+  padding: 5rem;
+  transition: 0.3s ease-in-out;
+  transform: perspective(100px) rotateY(-4deg);
+  opacity: 0;
+  visibility: hidden;
+}
+#header .containe .header .right .one .home .home1 li {
+  width: 100%;
+  margin: auto;
+}
+#header .containe .header .right .one .home .home1 li a {
+  display: inline-block;
+  padding: 11px 20px;
+  font-size: 13px;
+  color: white;
+}
+#header .containe .header .right .one .home .home1 li a:hover {
+  color: #ce9a47;
+}
+#header .containe .header .right .one .episodes {
+  text-align: center;
+  width: 20%;
+  padding: 35px 0;
+  position: relative;
+}
+#header .containe .header .right .one .episodes:hover {
+  background-color: pink;
+}
+#header .containe .header .right .one .episodes:hover .episodes1 {
+  opacity: 1;
+  visibility: visible;
+  transform: perspective(300px) rotateX(0deg);
+}
+#header .containe .header .right .one .episodes .episodes1 {
+  text-align: left;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0%;
+  width: 130px;
+  padding: 5rem;
+  transition: 0.3s ease-in-out;
+  transform: perspective(100px) rotateY(-4deg);
+  opacity: 0;
+  visibility: hidden;
+}
+#header .containe .header .right .one .episodes .episodes1 li {
+  width: 100%;
+  margin: auto;
+}
+#header .containe .header .right .one .episodes .episodes1 li a {
+  display: inline-block;
+  padding: 11px 20px;
+  font-size: 13px;
+  color: white;
+}
+#header .containe .header .right .one .episodes .episodes1 li a:hover {
+  color: #ce9a47;
+}
+#header .containe .header .right .one .about {
+  position: relative;
+  text-align: center;
+  width: 20%;
+  padding: 35px 0;
+}
+#header .containe .header .right .one .about:hover {
+  background-color: pink;
+}
+#header .containe .header .right .one .about:hover .about1 {
+  opacity: 1;
+  visibility: visible;
+  transform: perspective(300px) rotateX(0deg);
+}
+#header .containe .header .right .one .about .about1 {
+  text-align: left;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0%;
+  width: 130px;
+  padding: 5rem;
+  transition: 0.3s ease-in-out;
+  transform: perspective(100px) rotateY(-4deg);
+  opacity: 0;
+  visibility: hidden;
+}
+#header .containe .header .right .one .about .about1 li {
+  width: 100%;
+  margin: auto;
+}
+#header .containe .header .right .one .about .about1 li a {
+  display: inline-block;
+  padding: 11px 20px;
+  font-size: 13px;
+  color: white;
+}
+#header .containe .header .right .one .about .about1 li a:hover {
+  color: #ce9a47;
+}
+#header .containe .header .right .one .merch {
+  text-align: center;
+  width: 20%;
+  padding: 35px 0;
+}
+#header .containe .header .right .one .merch:hover {
+  background-color: pink;
+}
+#header .containe .header .right .one .subscribe {
+  position: relative;
+  text-align: center;
+  width: 20%;
+  padding: 35px 0;
+  margin-right: 20px;
+}
+#header .containe .header .right .one .subscribe:hover {
+  background-color: pink;
+}
+#header .containe .header .right .one .subscribe:hover .subscribe1 {
+  opacity: 1;
+  visibility: visible;
+  transform: perspective(300px) rotateX(0deg);
+}
+#header .containe .header .right .one .subscribe .subscribe1 {
+  text-align: left;
+  position: absolute;
+  background-color: black;
+  top: 100%;
+  left: 0%;
+  width: 130px;
+  padding: 5rem;
+  transition: 0.3s ease-in-out;
+  transform: perspective(100px) rotateY(-4deg);
+  opacity: 0;
+  visibility: hidden;
+}
+#header .containe .header .right .one .subscribe .subscribe1 li {
+  width: 100%;
+  margin: auto;
+}
+#header .containe .header .right .one .subscribe .subscribe1 li a {
+  display: inline-block;
+  padding: 11px 20px;
+  font-size: 13px;
+  color: white;
+}
+#header .containe .header .right .one .subscribe .subscribe1 li a:hover {
+  color: #ce9a47;
+}
+#header .containe .header .right .two {
+  padding: 35px 0;
+  width: 20%;
+}
+#header .containe .header .right .two ul {
+  justify-content: end;
+}
+#header .containe .header .right .two ul li {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+#header .containe .header .right .two ul li a {
+  margin-right: 35px;
+  font-size: 19px;
+  color: black;
+}/*# sourceMappingURL=style.css.map */

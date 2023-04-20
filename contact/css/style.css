@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contactUs {
+  width: 100%;
+  padding: 10rem;
+  background-image: url(https://themes.pixelwars.org/podify/demo-01/wp-content/uploads/sites/2/2023/03/ahmetoz_microphone_and_love_8640abf2-427c-49ba-9ecb-6d732bca9015.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#contactUs .map {
+  padding: 20px;
+}
+#contactUs .email {
+  background-color: white;
+  border-radius: 10px;
+}
+#contactUs .email .containerUs {
+  width: 80%;
+  margin: auto;
+}
+#contactUs .email .containerUs p {
+  padding-top: 10px;
+  text-align: center;
+}
+#contactUs .email .containerUs input {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+#contactUs .email .containerUs a {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 10px 11rem;
+  border-radius: 10px;
+}/*# sourceMappingURL=style.css.map */
